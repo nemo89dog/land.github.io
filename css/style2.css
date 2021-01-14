@@ -1,0 +1,245 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+/*---wrapps---*/
+
+
+:root {
+  --fontW: calc(14px + 8 * (100vw / 1920));
+  --fontM: calc(14px + (10 +12) * ((100vw - 460px )/ 1920));
+}
+
+::-webkit-scrollbar { /* chrome based */
+    width: 0px;  /* ширина scrollbar'a */
+    background: transparent;  /* опционально */
+}
+
+html {
+    -ms-overflow-style: none;  /* IE 10+ */
+    scrollbar-width: none; /* Firefox */
+}
+
+body{
+	font-family: Montserrat;
+    min-height: 100vh;
+}
+
+p{
+font-size: var(--fontW);	
+ }
+
+a{
+  font-weight:900;
+  text-decoration: none;
+  color: black;
+  transition: 1.5s;
+}
+
+a:hover{
+ box-shadow: 0 0 1vh black;
+}
+
+#contentPlace2{
+  background-image: url(../imgs/beta_bg.jpg);
+  background-size: cover;
+  min-height: 100vh;
+}
+
+@media (max-width:767px) and (orientation: portrait) {
+    p{
+	 font-size: var(--fontM);
+    }
+}
+
+/*1tt*/
+
+nav {
+  position: fixed;
+  top: 3vh;
+  left: 50%;
+  margin-right: -50%;
+    margin-top: 1vh;
+  transform: translate(-50%, -50%) 
+}
+nav img{ height: 3vh; }
+nav a{ padding: 2vh; 
+margin: 0 1vw;
+}
+
+#ru{padding-right: 1vw; margin-right:0; }
+#en{padding-left: 1vh; margin-left: 0} 
+
+
+/*---footer ---*/
+#iconsBar img{
+    height: 4vh;
+}
+
+#iconsBar p{
+    margin-bottom: 2vh;
+    color:aliceblue;
+}
+
+#iconsBar{
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-color: rgba(1,1,1,0.8);
+    background: rgb(48,48,48);
+    background: linear-gradient(0deg, rgba(48,48,48,0.85) 56%, rgba(86,86,86,0.6) 100%);
+    z-index: -1;
+}
+
+.botFooter , .socFooter{
+    margin: 1vh;
+}
+
+
+
+/*--- ---*/
+input , textarea {
+       flex: 1;
+        font-size: 2vh;
+        background-color: rgba(1,1,1,0.8);
+        border-style: solid;
+        border-top: 1px;
+        border-left: 1px;
+        border-right: 1px;
+        padding-left: 5%;
+        padding-right: 5%;
+        transition: 1s;
+        color: rgb(243,195,58);
+        outline:none;
+        border-radius: 5px;
+    }
+
+input:hover , textarea :hover{
+         border-color: rgb(23,23,23); 
+        transition: 1s;   
+    }
+#wrapper2{
+    padding-top: 3vh;
+    min-height: 150%;
+}
+
+.post{
+    width: 70%;
+    min-height: 15vh;
+    margin: 5vh auto;
+    padding:1vh;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.65) 48.96%, rgba(126, 123, 123, 0) 100%);
+    border-radius: 5px 5px 0 0;
+    box-sizing: border-box;
+    transition: 2s;
+}
+
+.post:hover{
+    background-color: rgba(71,71,71,0.7);
+}
+
+.post h3{
+    font-size: calc(var(--fontW) * 1.4) ;
+    font-weight:600;
+    padding: 1vh 1vh 1vh 2vh;
+    color: white;
+}
+
+
+/*----brif----*/
+#contentBrif{
+	padding: 7vh 0 5vh 0;
+	display: block;
+}
+
+#brif{
+    padding:3vh;
+    background-color: rgba(0,0,0, 0.5);
+    border-radius:1vh;
+    margin: 0 30% 0% 5%;
+}
+
+#brif input, #brif textarea{
+    text-decoration-color: rgb(243,195,58);
+    background-color: rgba(51,51,51,0.5); 
+    padding: 2px;
+    border-radius: 3px;
+    text-align: center;
+    resize: none;
+}
+
+#brif h5{
+    font-size: calc(var(--fontW) * 1.2) ;
+    padding: 0.5vh;
+    font-weight: 600;
+}
+
+#brif p{
+    line-height: 4vh;
+}
+
+.ath{
+   width: 70%;
+}
+
+#cmssh {
+    display: none;
+    transition: 2;
+    background-color: rgb(243,195,58);
+    border-radius: 5px;
+    border: none;
+    font-size: 2vh;
+    padding: 0 5px;
+    outline:none;
+}
+
+#cmsbl:checked + #cmssh{
+   display: inline-block;
+}
+
+
+/*----contacts----*/
+
+
+/*----gallery----*/
+.mainframeCollum{
+    width: 70%;
+    min-height: 95vh;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.5); 
+    padding-top: 7vh;
+z-index: -2;
+}
+
+.mainframeCollum h3{
+    font-size: calc(var(--fontW) * 1.4) ;
+    font-weight:600;
+    padding: 1vh 1vh 1vh 2vh;
+    color: rgb(243,195,58);
+    margin-top:5vh;
+}
+
+.slider{
+    min-height: 10vh;
+    width: 120%;
+    margin-left:-10%;
+    border-radius: 1vh;
+}
+
+#gallery2 , #gallery{
+    border-radius: 1vh;
+overflow: hidden;
+}
+
+/*----servises----*/
+
+
+/*----info----*/
+
+
+/*--------*/
+
+
+
+

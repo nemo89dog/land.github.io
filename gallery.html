@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+  <title>gallery</title>
+    
+  
+ <link rel="shortcut icon" type="images/png" href="imgs/fav.png">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    
+ <script type="text/javascript" src="js/jgallery.js"></script>
+
+ <link rel="stylesheet" type="text/css" href="css/animate.css"> 
+ <link rel="stylesheet" href="css/style2.css">
+ <link rel="stylesheet" href="css/menubt.css">
+    
+    <style type="text/css">
+        body{
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-image: url(imgs/beta_bg.jpg);
+            height: 100vh;
+        }
+    </style>
+
+    <script type="text/javascript" src="js/wow.min.js"></script>
+  
+</head>
+
+<body>
+<div>
+  <nav>
+        <a href="index.html"><img src="ico/home.png"></a>
+        <a href="contacts.html" >contacts</a>
+        <a href="gallery.html">gallery</a>
+        <a href="servises.html">servises</a>
+        <a href="info.html">info</a>
+        <a id="ru" href="">RU</a>
+        <a id="en" href="">ENG</a>
+      </nav>
+    
+        
+</div>
+    
+<div class="mainframeCollum">
+        <h3>websites</h3>
+        <div class="slider">
+            <div id="gallery">
+            </div>
+            
+            <script type="text/javascript">
+    document.querySelector('#gallery').appendChild(JGallery.create([{
+       items: [
+            {
+                url: 'images/large/1.jpg',
+                thumbUrl: 'images/thumbs/1.jpg',
+                title: 'Photo1',
+                hash: 'photo-1'
+            },
+            {
+                url: 'images/large/2.jpg',
+                thumbUrl: 'images/thumbs/2.jpg',
+                title: 'Photo2',
+                hash: 'photo-2'
+            },
+            {
+                url: 'images/large/3.jpg',
+                thumbUrl: 'images/thumbs/3.jpg',
+                title: 'Photo3',
+                hash: 'photo-3'
+            },
+            {
+                url: 'images/large/4.jpg',
+                thumbUrl: 'images/thumbs/4.jpg',
+                title: 'Photo4',
+                hash: 'photo-4'
+            },
+            
+        ]
+    }]).getElement());
+</script>
+            
+            
+            
+    
+        </div>
+    <!--    ----------------------------------------------    -->
+        <h3>logos</h3>
+        <div class="slider">
+            
+            <div id="gallery2">
+            </div>
+            
+            <script type="text/javascript">
+    document.querySelector('#gallery2').appendChild(JGallery.create([{
+       items: [
+            {
+                url: 'images/large/1.jpg',
+                thumbUrl: 'images/thumbs/1.jpg',
+                title: 'Photo1',
+                hash: 'photo-1'
+            },
+            {
+                url: 'images/large/2.jpg',
+                thumbUrl: 'images/thumbs/2.jpg',
+                title: 'Photo2',
+                hash: 'photo-2'
+            },
+            {
+                url: 'images/large/3.jpg',
+                thumbUrl: 'images/thumbs/3.jpg',
+                title: 'Photo3',
+                hash: 'photo-3'
+            },
+            
+        ]
+    }]).getElement());
+</script>
+    
+        </div>
+     <!--    ----------------------------------------------    -->
+        <h3>ui ux </h3>
+        <div class="slider">
+    
+        </div>
+     <!--    ----------------------------------------------    -->
+        <h3>banners</h3>
+        <div class="slider">
+    
+        </div>
+        <h3></h3>
+        
+        
+</div>
+    
+<div id="iconsBar">
+        <div class="botFooter" >
+          <a href=""><img src="ico/telegram.png"></a>
+          <a href=""><img src="ico/whatsapp.png"></a>
+        </div>
+        
+        <p> blabla@gmail.bla</p>
+        
+        <div class="socFooter">
+            <a href=""><img src="ico/in.png"></a>
+            <a href=""><img src="ico/p.png"></a>
+            <a href=""><img src="ico/vk.png"></a>
+            <a href=""><img src="ico/f.png"></a>
+        </div>
+
+</div>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js'></script>
+<script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>
+<script type="text/javascript" src="js/wow.min.js"></script>
+<script  src="js/index.js"></script>
+<script> new WOW().init(); </script>
+</body>
+
+</html>

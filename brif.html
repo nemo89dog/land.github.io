@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Brif</title>
+  
+    <link rel="shortcut icon" type="images/png" href="imgs/fav.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css"> 
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/menubt.css">
+    
+    <style type="text/css">
+        body{
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-image: url(imgs/brif_bg.jpg);
+            background-size: cover;
+            min-height: 100vh;
+        }
+    </style>
+
+    <script type="text/javascript" src="js/wow.min.js"></script>
+  
+</head>
+
+<body>
+    
+    
+    
+  <div>
+    <nav>
+        <a href="index.html"><img src="ico/home.png"></a>
+        <a href="contacts.html" >contacts</a>
+        <a href="gallery.html">gallery</a>
+        <a href="servises.html">servises</a>
+        <a href="info.html">info</a>
+        <a id="ru" href="">RU</a>
+        <a id="en" href="">ENG</a>
+      </nav>
+
+    <div id="contentBrif">
+            <form id="brif" >
+              <h5>бекграунд</h5>
+              <p><input type="text" class="ath" name="cont" placeholder="контактные данные по которым с вами можно связаться"/> </p>
+              <p><input type="text" class="ath" name="trgt" placeholder="контактные данные, которые должны быть указаны на вашем сайте"/></p>
+              <p><input type="text" class="ath" name="type" placeholder="какова основная причина или цель создания сайта"/> </p>
+              <p><input type="text" class="ath" name="type" placeholder="целевая аудитория сайта"/> </p>
+              <p><input type="text" class="ath" name="type" placeholder="предполагаемый тип сайта"/> </p>
+              <p><textarea class="ath" name="exgo" placeholder="примеры похожих сайтов"></textarea></p>
+              <p><input type="text" class="ath" name="type" placeholder="старый сайт (эсли есть)"/> </p>
+             <!----> <p>уже есть название сайта или нужна наша помошь</p>
+              <p><label> помощь в переносе сайта на хостинг <input type="checkbox" name="stho"/></label> </p>
+              <p><label> помощь в выборе домена и хостинга <input type="checkbox" name="fdho"/></label> </p>
+              <p><input type="text" class="ath" name="type" placeholder="какова основная причина или цель создания сайта"/> </p>
+              <p><textarea class="ath" name="exbd" placeholder="названия компаний или сайтов конкурентов"></textarea></p>
+              <h5>функционал</h5>
+              <p>функционал во многом будет зависить от от целей создания, но все же у нас есть несколько вопросов</p>
+              <!----><p>нужна мобильная версия сайта</p>
+              <p><label for="cmsbl">нужна cms </label><input type="checkbox" id="cmsbl" >
+              <select id="cmssh" name="ncms" size="1" >
+                    <option value="Wordpress">Wordpress</option>
+                    <option value="">Joomla</option>
+                    <option value="Joomla">Opencart</option>
+                    <option value="Dropal">Dropal</option>
+                    <option value="MODX">MODX</option>
+                    <option value="Bitrix">Bitrix</option>
+                    <option value="any" id="opl">--any--</option>
+              </select></p>
+              <p><label> форма обратной связи <input type="checkbox" name="fbfr"/></label> </p>
+              <p><label> форма заказа званка <input type="checkbox" name="clfr"/></label> </p>
+              <p><label> чатбот <input type="checkbox" name="glgg"/></label> </p>
+              <p><label> яндекс метрика <input type="checkbox" name="galr"/> </label> </p>
+              <p><label> google analytics <input type="checkbox" name="sldr"/></label> </p>
+              <p><label> геолокация на googlmaps <input type="checkbox" name="glgg"/></label> </p>
+              <p><label> многоязычность сайта <input type="checkbox" name="glgg"/></label> </p>
+              <p><textarea  class="ath" name="athr" placeholder="другое"></textarea></p>
+              <h5>дизайн</h5>
+              <!----><p>у вас есть логотип или его нужно создать</p>
+              <!----><p>у вас есть фирменный стиль, или нам нужно его разработать</p>
+              <!----><p>вас есть какие либо элементы дизайна (на визитках, плакатах, баннерах и тд.) которые мы можем или должны использовать.</p>
+              <p><textarea class="ath" name="cnws" placeholder="примеры понравившихся сайтов"></textarea></p>
+              <p><textarea class="ath" name="desw" placeholder="примеры не понравившихся сайтов"></textarea> </p>
+              <p><textarea class="ath" name="liws" placeholder="другое"></textarea></p>
+              <h5>пара организацтонных вопросов</h5>
+              <p>расставте приоритеты</p>
+              <!----><p>уникальность дизайна (ваш сайт внешне должен быть максимально не похож на другие)</p>
+              <!----><p>стоимость сайта (вам желательно сэкономить бюджет)</p>
+              <!----><p>время создания сайиа (вам нужен сайт как можно скорее)</p>
+              <!----><p>максимально легкий код (сайт будет требовать меньше ресурсов и будет быстрее работать)</p>
+              <p>у вас есть материалы, которые должны быть размешены на сайте? (текст, картинки, видео, другое)?
+               <label>да<input type="radio" name="mtfs" value="есть"/></label> <label> нет <input type="radio" name="mtfs" value="отсутствует"/></label></p>
+
+              <!----><p></p>
+
+              <p><textarea class="ath" name="sfws" placeholder="Особенности функционала сайта "></textarea></p>
+
+              <p><input type="text" class="ath" name="olws" placeholder="Старый сайт"/></p>
+            
+              
+              
+              
+              <p><label> многоязычность <input type="checkbox" name="mltl"/> </label> </p>
+              <p> <label>уникальный дизаин <input type="radio" name="unds" value="нужно сделать"/></label> или <label> шаблон <input type="radio" name="unds" value="можно использовать шаблон"/></label> </p>
+              
+
+              
+
+              <p><textarea class="ath" name="stmo" placeholder="ваши пожелания и коментарии"></textarea> </p>
+              <p> <input type="submit"> </p>
+            </form>
+    </div>
+
+  </div>
+
+<div id="iconsBar">
+        <div class="botFooter" >
+          <a href=""><img src="ico/telegram.png"></a>
+          <a href=""><img src="ico/whatsapp.png"></a>
+        </div>
+        
+        <p> blabla@gmail.bla</p>
+        
+        <div class="socFooter">
+            <a href=""><img src="ico/in.png"></a>
+            <a href=""><img src="ico/p.png"></a>
+            <a href=""><img src="ico/vk.png"></a>
+            <a href=""><img src="ico/f.png"></a>
+        </div>
+
+    </div>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js'></script>
+<script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>
+<script type="text/javascript" src="js/wow.min.js"></script>
+<script  src="js/index.js"></script>
+<script> new WOW().init(); </script>
+</body>
+
+</html>
